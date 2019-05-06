@@ -2,10 +2,6 @@
 /*global $, Folder*/
 
 
-function sayHello(){
-    alert("hello from ExtendScript");
-}
-
 function getData(){
     var obj = {
         name: activeDocument.name,
